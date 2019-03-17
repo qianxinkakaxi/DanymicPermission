@@ -6,5 +6,5 @@ dependencies {
     implementation 'com.squareup:javapoet:1.11.1'
 }
 
-sourceCompatibility = "1.8"
-targetCompatibility = "1.8"
+
+apply from: 'jcenter_annotation_push.gradle'

@@ -1,20 +1,26 @@
 buildscript {
 
     repositories {
-        maven {
-            url uri('repo')
-        }
+//        maven {
+//            url uri('repo')
+//        }
         google()
         jcenter()
         mavenCentral()
+        maven{
+            url 'https://dl.bintray.com/qianxin2019/dynamic-permission'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
         classpath 'org.aspectj:aspectjtools:1.8.1'
         // classpath 'com.app.plugin:gradleplugin:1.0.0'
-        classpath 'com.app.plugin:gradleplugin:1.0.0'
+        classpath 'com.xports:danymic-permission-plugin:1.0.0'
+        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.0"
+        classpath "com.github.dcendents:android-maven-gradle-plugin:1.5"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath ('com.xports:danymic-permission-annotation:1.0.0')
     }
 
 
@@ -25,7 +31,9 @@ allprojects {
         google()
         jcenter()
         mavenCentral()
-
+        maven{
+            url 'https://dl.bintray.com/qianxin2019/dynamic-permission'
+        }
     }
 }
 

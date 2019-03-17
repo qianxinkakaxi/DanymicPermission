@@ -90,18 +90,17 @@ public class PermissionDeniedProcessor extends AbstractProcessor {
 
         PackageElement packageElement = mElementUtils.getPackageOf(classElement);
 
-        // 这个获取的包名
+
         String packageName = packageElement.getQualifiedName().toString();
-        // 这个获取的是方法名，注解表示的名字，例如方法名，字段名
 //        String className = classElement.getSimpleName().toString();
 //        VariableElement variableElement = (VariableElement) packageElement;
         //   TypeElement typeElement = (TypeElement) classElement.getEnclosingElement();
 
 
 //        System.out.print("packageName === " + packageName + ">>>>>>>>>>>>>>>>>>>>>>> className = " + className);
-        // 这个获取的包名加类型ss
+
 //        String qualifiedName = classElement.toString();
-        // 这个获取的类名
+
         String clsName = classElement.getSimpleName().toString();
 
 //        System.out.print("qualifiedName === " + qualifiedName + ">>>>>>>>>>>>>>>>>>>>>>> clsName = " + clsName);
@@ -134,7 +133,7 @@ public class PermissionDeniedProcessor extends AbstractProcessor {
             Element element = elementList.get(j);
             PermissionDenied annotation = element.getAnnotation(PermissionDenied.class);
             String[] values = annotation.value();
-            // 这个获取的是方法名，注解表示的名字，例如方法名，字段名
+
             String className = element.getSimpleName().toString();
 
             String condition = "";
@@ -165,7 +164,7 @@ public class PermissionDeniedProcessor extends AbstractProcessor {
         JavaFile javaFile = JavaFile.builder(packageName, helloWorld)
                 .build();
         javaFile.writeTo(mFiler);
-        // 底下的方法可以写进别的工程
+
         //  File file = new File("../asdsad/HELLOWORLD.JAVA");
 
 //        mMessager.printMessage(Diagnostic.Kind.NOTE, System.getProperty("user.dir"));
