@@ -1,1 +1,2 @@
-include ':app', ':plugin', ':aoplibrary', ':testlibrary', ':annotationprocessor'
+include ':app',':testlibrary'
+//include ':aoplibrary',  ':plugin', :annotationprocessor'
