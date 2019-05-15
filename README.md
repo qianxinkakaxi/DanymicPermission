@@ -91,5 +91,4 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-
-![image](https://note.youdao.com/yws/public/resource/bd24ff9b39c238c024a1dd1a87a9f03d/xmlnote/9265C26D188341CCA22BAB9C93E90E2C/1110)
+[效果如图](https://note.youdao.com/yws/public/resource/bd24ff9b39c238c024a1dd1a87a9f03d/xmlnote/9265C26D188341CCA22BAB9C93E90E2C/1110)
