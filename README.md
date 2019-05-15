@@ -1,4 +1,4 @@
-## 1.DynamicPermission1.在项目中使用AspectJ实现动态权限申请
+## DynamicPermission1.在项目中使用AspectJ实现动态权限申请
 
 ### 1.在项目中接入aspectJ
 
