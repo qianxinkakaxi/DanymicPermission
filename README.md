@@ -1,3 +1,5 @@
+## 1.DynamicPermission1.在项目中使用AspectJ实现动态权限申请
+
 ### 1.在项目中接入aspectJ
 
 aspectJ在介入的时候需要注意library和projecr的区别，这两个在接入的时候代码是不同的
@@ -92,3 +94,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 [效果如图](https://note.youdao.com/yws/public/resource/bd24ff9b39c238c024a1dd1a87a9f03d/xmlnote/9265C26D188341CCA22BAB9C93E90E2C/1110)
+
+## DynamicPermission2.在项目中使用Apt生成权限申请失败回调文件
+
+## DynamicPermission3.在项目中使用javassist修改activity的onRequestPermissionsResult方法，绑定apt生成的文件
