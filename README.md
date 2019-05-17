@@ -223,7 +223,7 @@ public final class MainActivity_AutoGenerate {
 
 [点击查看最后执行的效果图](https://note.youdao.com/yws/public/resource/bd24ff9b39c238c024a1dd1a87a9f03d/xmlnote/05FE296B6F3B44879D92F357CFAFE3AD/1218)
 
-## DynamicPermission3.在项目中使用javassist修改activity的onRequestPermissionsResult方法，绑定apt生成的文件
+## DynamicPermission3.使用javassist修改onRequestPermissionsResult方法
 
 在上面最后的时候，会自动生成XXX_AutoGenerate这个类，但是需要我们手动的去复写onRequestPermissionsResult，在里面去调用XXX_AutoGenerate.permissionDenied方法，显得非常笨拙，其实我们可以利用javassist在打包的时候修改class文件，在onRequestPermissionsResult里面调用permissionDenied方法。
 
