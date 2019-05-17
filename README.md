@@ -353,3 +353,5 @@ public void onRequestPermissionsResult(int requestCode, @NonNull String[] permis
 ```
 
 [点击查看运行效果图](https://note.youdao.com/yws/public/resource/bd24ff9b39c238c024a1dd1a87a9f03d/xmlnote/5BB01C45BB5F4538A4E50B204D6DA8DF/1281)
+
+点击下载[demo](http://note.youdao.com/yws/public/resource/bd24ff9b39c238c024a1dd1a87a9f03d/xmlnote/3490E8F6D6224AA389BA83FE421B5EA7/1286)
