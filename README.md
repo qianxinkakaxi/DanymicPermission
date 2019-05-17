@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
 [效果如图](https://note.youdao.com/yws/public/resource/bd24ff9b39c238c024a1dd1a87a9f03d/xmlnote/9265C26D188341CCA22BAB9C93E90E2C/1110)
 
-## DynamicPermission2.在项目中使用Apt生成权限申请失败回调文件
+## DynamicPermission2.在项目中使用Apt生成权限申请失败调用文件
 
 在上面我们只讲到了用户允许权限运行没有问题，但是并没有用户拒绝之后的处理，我们之前写代码的时候，一般是在下面的代码根据grantResults来执行代码的
  
