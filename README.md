@@ -13,7 +13,7 @@ classpath 'com.xports:danymic-permission-plugin:1.0.0'
 
 
 #### -  在module中接入aspectJ
-1.    module的类型是project
+1.    module的类型是application
   
 在build.gradle文件头中引入
       
